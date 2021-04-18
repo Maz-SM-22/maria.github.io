@@ -47,10 +47,6 @@ header a:hover {
     color: #22265B;
 }
 
-/* a:not(.text-link):hover {
-    background-color: rgba(255, 255, 255, 0.35);
-} */
-
 nav ul {
     margin: 0;
     padding: 0;
@@ -109,6 +105,10 @@ section {
 
 h3 {
     font-size: 1.8em; 
+}
+
+.swiper-button-prev, .swiper-button-next {
+    visibility: hidden;
 }
 
 .image-container {

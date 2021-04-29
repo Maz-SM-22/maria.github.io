@@ -2,6 +2,7 @@ body {
     font-family: 'Staatliches', cursive;
     padding: 0;
     margin: 0;
+    background-color:#131221;
     background-image: url(../img/pawel-czerwinski-ypqyuASFNps-unsplash.jpg);
     background-attachment:fixed;
     background-position: center;    
@@ -68,15 +69,16 @@ nav li {
 }
 
 button {
-    background-color:#22265B; 
+    background-color:#131221; 
     color: white; 
     padding: 10px; 
-    border-radius: 20px;
     border: none; 
+    font-family: 'Staatliches', cursive;
     font-size: 1.5em;
     position: fixed;
     bottom: 60px; 
     right: 50px; 
+    display: none;
 }
 
 .top-container {

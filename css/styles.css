@@ -236,6 +236,7 @@ p > a:hover {
 .swiper-container {
     height: 200px; 
     margin: 10px; 
+    overflow: scroll;
 }
 
 .swiper-wrapper img { 
@@ -352,4 +353,5 @@ p > a:hover {
         height: 200px; 
         margin: 20px; 
     }
+
 }
